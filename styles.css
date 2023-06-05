@@ -411,14 +411,14 @@ span{
     }
 
     .home-img img{
-        width: 30vw;
+        width: 20vw;
         margin-top: 4rem;
     }
     .about{
         flex-direction: column-reverse;
     }
     .about img{
-        width: 30vw;
+        width: 20vw;
         margin-top: 4rem;
     }
     .portfolio h2{
