@@ -45,6 +45,9 @@ ScrollReveal().reveal('.home-img, .portfolio-box, .contact',{origin:'bottom'});
 ScrollReveal().reveal('.home-content h1, .about-img, .contact',{origin:'left'});
 ScrollReveal().reveal('.home-content p, .about-content',{origin:'right'});
 
+ScrollReveal().reveal('.skill-box', {origin:'bottom'});
+
+
 const typed = new Typed('.multiple-text',{
     strings: ['Data Science','Machine Learning','Artificial Intelligence'],
     typeSpeed: 70,

@@ -12,14 +12,15 @@
 <body>
     <!-- header section -->
     <header class="header">
-        <a href="#" class="logo">Portfolio</a>
+        <a href="#" class="logo"></a>
         <i class='bx bx-menu' id="menu-icon"></i>
 
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact</a>
+            <a href="#skills">Skills</a>
+            <a href="#work">Work</a>
+            <a href="#portfolio">Projects</a>
+            <!-- <a href="#contact">Contact</a> -->
         </nav>
     </header>
     
@@ -29,44 +30,137 @@
             <h3>Hello, It's Me</h3>
             <h1>Rakshith</h1>
             <h3>And I love <span class="multiple-text"></span></h3>
-            <p>I am a student at PES University in Bengaluru, India, pursuing a bachelor's degree in Electronics and Communication Engineering. Alongside my studies, playing the flute brings me immense joy. Furthermore, I have a deep passion for Data Science and Machine Learning, enabling me to combine technology and analytical skills to solve complex problems and extract valuable insights from data.</p>
+            <p>I am a Data Scientist at Tredence with a background in Electronics and Communication Engineering from PES University. My core interests are in AI, Machine Learning, and Data Science, and I am always looking for opportunities to expand my expertise in these fields. I thrive on solving intricate data challenges and creating innovative solutions that address real-world issues.
+
+            <br>
+            <br>
+
+            Outside of my professional work, I have been learning and playing the flute for over 15 years. I also teach and perform at various events and stages.
+            </p>
             <div class="social-media">
-                <!-- <a href="#"><i class='bx bxl-facebook'></i></a>
-                <a href="#"><i class='bx bxl-instagram-alt'></i></a> -->
+                
                 <a href="https://www.linkedin.com/in/rakshith-r-2a550a201/"><i class='bx bxl-linkedin'></i></a>
                 <a href="https://github.com/Rakshith2202"><i class='bx bxl-github'></i></a>
             </div>
-            <a href="Rakshith_Resume.pdf" class="btn">Download CV</a>
+            <a href="Rakshith_R_Resume.pdf" class="btn">Download CV</a>
         </div>
 
         <div class="home-img">
-            <img src="Images/Rakshith_1.png" alt="">
+            <img src="Images/Rakshith_4.jpg" alt="">
         </div>
     </section>
 
-    <!-- about section design -->
-    <section class="about" id="about">
-        <div class="about-img">
-            <img src="Images/Rakshith_2.png" alt="">
-        </div> 
 
-        <div class="about-content">
-            <h2 class="heading">About <span>Me</span></h2>
-            <!-- <h3>Data Science and ML Enthusiast</h3> -->
-            <p>As a driven and ambitious individual, I have a keen interest in the exciting and dynamic world of data
-                science and machine learning. With a solid foundation in Python programming, data analysis, machine learning algorithms, and data visualization, I am eager to apply my skills to tackle real-world
-                challenges and continue expanding my knowledge in this field. As an adaptable and quick learner, I
-                am confident that I can contribute valuable insights and innovative solutions to any team.
-                <br>
-                <br>
-                In addition to my studies, I am actively involved in promoting and sharing my love for music. As a former head of Ninaada, a musical club at PES University, I have both organized and participated in a variety of successful events, showcasing the exceptional talent of our musicians. Furthermore, as a skilled Carnatic flute player, I frequently perform on different stages and also conduct flute classes, imparting my passion for music to others.
-            </p>
-            <h2 class="skills-heading">Skills</h2>
-            <p class="skills">
-                Python  |  Data Analysis  |  SQL  |  Machine Learning  |  Deep Learning  | Computer Vision | Data Structures and Algorithms | Operating Systems |Problem Solving  |  Communication  |  Critical Thinking
-            </p>
+    <section class="skills-section", id="skills">
+        <div class="heading">
+            <h2>Skills</h2>
+        </div>
+        <div class="skills-container">
+            <div class="skill-box">
+                <h4>Technical Skills</h4>
+                <ul>
+                    <li>Python</li>
+                    <li>Data Visualization</li>
+                    <li>Statistical Analysis</li>
+                    <li>Machine Learning</li>
+                    <li>Computer Vision</li>
+                    <li>Natural Language Processing</li>    
+                    <li>SQL</li>
+                </ul>
+            </div>
+            <div class="skill-box">
+                <h4>Libraries and Frameworks</h4>
+                <ul>
+                    <li>Tensorflow</li>
+                    <li>PyTorch</li>
+                    <li>Transformers</li>
+                    <li>Scikit-Learn</li>
+                    <li>Streamlit</li>
+                    <li>Flask</li>
+                </ul>
+            </div>
+            <div class="skill-box">
+                <h4>Soft Skills</h4>
+                <ul>
+                    <li>Critical Thinking</li>
+                    <li>Communication</li>
+                    <li>Problem Solving</li>
+                    <li>Adaptability</li>
+                    <li>Collaboration</li>
+                </ul>
+            </div>
         </div>
     </section>
+    
+
+    <section id="work" class="work">
+        <div class="heading">
+            <h2>Work <span>Experience</span></h2>
+        </div>
+        <div class="work-container">
+
+            <div class="work-box">
+                <div class="company-role">
+                    <h3>Tredence</h3>
+                    <p class="timeline">Jul 2024 - Present</p>
+                </div>
+                <p><strong>Associate Data Scientist</strong></p>
+                <ul>
+                    <li>Fine-tuned BERT with a novel data preparation technique for Invoice Harmonization, achieving an F1-score of 93.68%.</li>
+                    <li>Developed an end-to-end system using Streamlit that digitizes and harmonizes multiple invoices, improving data
+                        consistency and accessibility within a unified database</li>
+                    <li>Currently, I am utilizing Video Action Recognition in the retail domain to analyze customer behavior and enhance operational efficiency through actionable insights.</li>
+                </ul>
+            </div>
+
+            <div class="work-box">
+                <div class="company-role">
+                    <h3>Tredence</h3>
+                    <p class="timeline">Jan 2024 - Jul 2024</p>
+                </div>
+                <p><strong>Data Science Intern</strong></p>
+                <ul>
+                    <li>Worked on Invoice Digitization to extract both structured and unstructured data from invoices.
+                    </li>
+                    <li>Applied YOLOv8, Table Transformers, and Paddle OCR to achieve 92% accuracy in structured data extraction.</li>
+                    <li>Improved unstructured data extraction accuracy by 10% through fine-tuning LayoutLMv3 using a novel technique,
+                        surpassing state-of-the-art models.</li>
+                    <li>Reduced overall extraction time by 50% using an optimized approach for structured and unstructured data processing.</li>
+                </ul>
+            </div>
+
+            <!-- SuperU AI -->
+            <div class="work-box">
+                <div class="company-role">
+                    <h3>SuperU AI</h3>
+                    <p class="timeline">Nov 2023 - Dec 2023</p>
+                </div>
+                <p><strong>Product Intern</strong></p>
+                <ul>
+                    <li>Performed Market Basket Analysis using Apriori and Association Rules algorithms on Shopify stores like Paki, Soft
+                        Touch Lens, and Toffee Coffee Roasters, uncovering key purchasing patterns and product associations.</li>
+                    <li>Implemented Retention Analytics for Shopify stores like Paki, Soft Touch Lens, and Toffee Coffee Roasters, analyzing
+                        transaction gaps to provide insights on customer behavior.</li>
+                </ul>
+            </div>
+
+            <!-- Quest Global -->
+            <div class="work-box">
+                <div class="company-role">
+                    <h3>Quest Global</h3>
+                    <p class="timeline">April 2023 - Jul 2023</p>
+                </div>
+                <p><strong>Machine Learning Intern</strong></p>
+                <ul>
+                    <li>Developed a system for liver segmentation and tumour detection from CT scans.</li>
+                    <li>Utilized UNET with VGG-17 as the backbone, achieving an IoU score of 96.7% in liver segmentation.</li>
+                    <li>Employed UNET with EfficientNet-B0 to accurately segment liver tumors, achieving an IoU score of 90.3%.</li>
+                </ul>
+            </div>
+            
+        </div>
+    </section>
+    
 
     <!-- portfolio section design -->
     <section class="portfolio" id="portfolio">
@@ -209,7 +303,7 @@
     </section>
 
     <!-- contact section design -->
-    <section class="contact" id="contact">
+    <!-- <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me!</span></h2>
 
         <form action="#">
@@ -224,11 +318,11 @@
             <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
             <input type="submit" value="Send Message" class="btn">
         </form>
-    </section>
+    </section> -->
 
     <footer class="footer">
         <div class="foter-text">
-            <p>Copyright &copy; 2023 by Rakshith | All Rights Reserved</p>
+            <p>Copyright &copy; 2024 by Rakshith | All Rights Reserved</p>
         </div>
 
         <div class="footer-iconTop">

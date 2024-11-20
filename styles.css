@@ -275,7 +275,7 @@ span{
     color: var(--second-bg-color);
 }
 
-.contact h2{
+/* .contact h2{
     margin-bottom: 3rem;
 }
 
@@ -314,7 +314,7 @@ span{
 .contact form .btn{
     margin-top: 2rem;
     cursor: pointer;
-}
+} */
 
 .footer{
     display: flex;
@@ -323,6 +323,7 @@ span{
     flex-wrap: wrap;
     padding: 2rem 9%;
     background-color: var(--second-bg-color);
+    margin-top: 3rem;
 }
 
 .footer-text p{
@@ -461,3 +462,123 @@ span{
         margin-top: 2rem;
     }
 }
+
+.work {
+    background-color: var(--bg--color);
+    padding: 6rem 9%;
+}
+
+.work .heading {
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+}
+
+.work-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.work-box {
+    background-color: var(--second-bg-color);
+    padding: 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+
+.company-role {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.company-role h3 {
+    font-size: 2.5rem;
+    color: var(--main-color);
+    margin: 0;
+}
+
+.company-role .timeline {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    font-weight: 300;
+}
+
+.work-box p {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.work-box ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+
+.work-box ul li {
+    margin-bottom: 1rem;
+}
+
+
+.skills-section {
+    background-color: var(--second-bg-color);
+    padding: 6rem 9%;
+}
+
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem; 
+}
+
+.skill-box {
+    background-color: var(--bg--color);
+    padding: 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33.333% - 2rem); 
+    text-align: center;
+    margin-bottom: 2rem; 
+    box-sizing: border-box;
+    margin-top: 3rem;
+}
+
+.skill-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.skill-box h4 {
+    font-size: 2.4rem;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+}
+
+.skill-box ul {
+    list-style-type: none;
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+
+.skill-box ul li {
+    margin-bottom: 1rem;
+    transition: color 0.3s ease-in-out; 
+}
+
+@media (max-width: 991px) {
+    .skill-box {
+        flex: 1 1 calc(50% - 1.33rem);
+    }
+}
+
+@media (max-width: 617px) {
+    .skill-box {
+        flex: 1 1 100%;
+    }
+}
+
